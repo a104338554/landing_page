@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black;; */
+
+}
+.content{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    background-color: pink;
+}
+.firstSec{
+    padding: 23px 212px 0px 205px ;
+    /* padding-left: 200px; */
+    display: flex;
+    height: 164px;
+    background-color: #1f2937;
+    
+    color: white;
+    gap: 25px;
+
+    
+
+
+}
+.content .firstSec .header{
+    font-size: 16px;
+    font-weight: 700;
+    flex: 1;
+    
+
+}
+.firstSec a{
+    text-decoration: none;
+    color: white;
+}
+.secondSec{
+    padding: 0 212px 138px 205px;
+    height: 371px;
+    background-color: #1f2937;
+    display: flex;
+    gap: 60px;
+    color: aliceblue;
+
+
+
+
+}
+.secondSec .secondLeft{
+    flex: 1;
+
+}
+.secondSec .secondRight{
+    background-color: #6d747d;
+    flex: 1;
+    text-align: center;
+    line-height: 236px;
+
+}
+.secondSec h1{
+    padding-right: 175px;
+    font-size: 35px;
+    line-height: 58px;
+    font-weight: 800;
+}
+.secondLeft p{
+    padding-right: 55px;
+    font-size: 15px;
+
+}
+.secondLeft button{
+    margin-top: 18px;
+    width: 130px;
+    height: 40px;
+    background-color: #3b82f6;
+    border: none;
+    line-height: 40px;
+    font-size: 14px;
+    color: white;
+    border-radius: 10px;
+
+
+}
+.thirdSec{
+    height: 500px;
+    background-color: #fff;
+    text-align: center;
+
+}
+.thirdSec h2{
+    line-height: 140px;
+
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.thirdSec .subtext{
+    display: flex;
+    padding-left: 250px;
+    /* justify-content: space-between; */
+    gap:48px;
+
+
+    
+
+    
+    
+
+}
+.thirdSec .square{
+    width: 170px;
+    height: 170px;
+    border: blue 4px solid;
+    border-radius: 20px;
+    /* background-color: pink; */
+}
+.thirdSec p{
+    width: 170px;
+    line-height: 20px;
+    font-size: 18px;
+    /* background-color: green; */
+}
+.fourthSec{
+    height: 430px;
+    padding: 136px 300px 0 300px;
+    background-color: #e5e7eb;
+
+}
+.fourthSec p{
+    font-size: 28px;
+    line-height: 36px;
+
+
+    
+}
+#name{
+    text-align: right;
+}
